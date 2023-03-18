@@ -10,12 +10,12 @@ export async function getStaticPaths() {
     console.log('aaaa  123 ',performance.now())
     console.log('aaa a is ',a)
     paths.push(pathSingle)
-    for(let i = 0 ;i<400000;++i){
-        let pathSingle = {params:{
-            plug:'aaa2-'+i
-        }}
-        paths.push(pathSingle)
-    }
+    // for(let i = 0 ;i<400000;++i){
+    //     let pathSingle = {params:{
+    //         plug:'aaa2-'+i
+    //     }}
+    //     paths.push(pathSingle)
+    // }
     pathSingle = {params:{
         plug:'aaa2'
     }}

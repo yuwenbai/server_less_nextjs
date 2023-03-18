@@ -19,7 +19,7 @@ export async function getStaticProps({params}) {
  
     return {
         props:{
-            page: 100,
+            page: params.plug,
             coin: 1001,
         },
         revalidate: 60,
